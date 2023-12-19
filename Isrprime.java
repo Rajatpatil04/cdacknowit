@@ -1,5 +1,7 @@
+import java.util.Scanner;
+
 class Isprime{
-   public staic void main(String args[])
+   public static void main(String args[])
   {
       Scanner s = new Scanner(System.in);
         int num = s.nextInt();
@@ -17,6 +19,8 @@ class Isprime{
       System.out.println("NUMBER IS PRIME");
     else
       System.out.println("NUMBER IS NOT PRIME");
+
+      s.close();
   }
 }
         
